@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --secondary-color-200:#E5E5E5;
+    --secondary-color-300:#14213D;
+
+
+}
+
+/*general style*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/* general styles settings*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: var(--secondary-color-200);
+    font-size: 1rem;
+
+}
